@@ -14,13 +14,11 @@ El propósito es extraer información valiosa sobre la duración, calificaciones
 ## 🗂️ Estructura del Proyecto
 
 ```
-├── data/                 # Contiene los conjuntos de datos originales
+├── data/                                         # Contiene los conjuntos de datos originales
 │   ├── netflix_originals.csv
 │   └── netflix_titles.csv
-├── notebooks/            # Notebooks de Jupyter con el análisis EDA
-├── src/                  # Scripts para procesamiento y unión de datos
-├── results/              # Resultados finales, gráficos y datasets procesados
-└── README.md             # Descripción del proyecto
+├── laboratorio-modulo2-leccion02-eda-union/      # Resultados finales, gráficos y datasets procesados
+└── README.md                                     # Descripción del proyecto
 ```
 
 ## 🛠️ Instalación y Requisitos
