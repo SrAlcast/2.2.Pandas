@@ -42,14 +42,38 @@ pip install -r requirements.txt
 
 ## 📊 Resultados y Conclusiones
 
-- Se analizaron los géneros más comunes en las producciones de Netflix.
-- Se observó que las producciones originales de Netflix tienden a tener una mayor duración promedio en comparación con otros títulos.
-- Las producciones originales también muestran una tendencia a recibir mejores puntuaciones en IMDB.
+
 
 ## 🔄 Próximos Pasos
 
-- Incluir más columnas para análisis como `cast` y `director`.
-- Implementar técnicas avanzadas de visualización para descubrir patrones adicionales en los datos.
+### 1. Carga de Datos
+
+El primer paso consiste en cargar el conjunto de datos. Dependiendo del formato de los datos (CSV, SQL, etc.), se debe utilizar una herramienta o biblioteca adecuada para importarlos. Por ejemplo, si los datos están en formato CSV, se puede utilizar `pandas` para cargarlos en un dataframe.
+
+### 2. Revisión Inicial
+
+Una vez cargados los datos, es fundamental realizar una inspección básica del conjunto de datos.<br>
+- Visualizar las primeras filas para tener una idea del contenido.
+- Comprobar las dimensiones del dataset (número de filas y columnas).
+- Revisar los tipos de datos presentes en cada columna.
+- Detectar la presencia de valores faltantes o duplicados.
+En esta primera inspeccion podemos observar los tamaños de los dos archivos csv:<br>
+Por un lado, el tamaño del csv netflix_original es de
+Por otro lado, el tamaño del csv netflix_titles
+### 3. Análisis de Valores Faltantes
+
+En cuanto a los valores nulos observamos que:<br>
+El primero de los archivos scv #netflix_original# esta bastante completo, no se encuentran variables con contenidos nulos lo que indica una buena recogida de datos.<br>
+Por otro lado, el csv #netflix_titles# si que contiene bastantes valores nulos, principalmente en las variables director, cast, country y duration, lo que indica que se deberia de realizar una mayor recogida de datos en esas variables.<br>
+
+Al juntar ambos archivos se genero una nueva tabla con valores nulos o vacios por la falta de recoger datos del resto de peliculas de Netflix.
+
+### 4. Resumen de principales Insights
+
+Al final del análisis exploratorio, se pueden destacar los principales hallazgos obtenidos:
+- Describir los patrones generales observados en los datos.
+- Mencionar las relaciones más relevantes entre las variables numéricas o categóricas.
+- Explicar cómo se abordaron los valores faltantes o anomalías detectadas.
 
 ## 🤝 Contribuciones
 
