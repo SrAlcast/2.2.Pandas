@@ -62,7 +62,7 @@ Como definicion de los valores de los csv inicial:
 
    - `Language`: Especifica el idioma principal o los idiomas en los que se presenta la producción.
 
-- **`netflix_titles.csv`**: Contiene información sobre una variedad de títulos disponibles en la plataforma Netflix, incluyendo tanto películas como series de televisión. Las columnas que nos encontraremos en este conjunto de datos son:
+**`netflix_titles.csv`**: Contiene información sobre una variedad de títulos disponibles en la plataforma Netflix, incluyendo tanto películas como series de televisión. Las columnas que nos encontraremos en este conjunto de datos son:
 
    - `show_id`: Identificador único para cada título en el dataset.
 
@@ -91,8 +91,11 @@ Como definicion de los valores de los csv inicial:
 ### 2. Revisión Inicial
 
 En esta primera inspeccion tras cargar los datos podemos observar los tamaños ambos:<br>
+
 Por un lado, el tamaño del Dataframe `netflix_original` es de 513 filas y 6 columnas.<br>
+
 Por otro lado, el tamaño del Dataframe `netflix_titles` es de 8807 filas y 11 columnas.<br>
+
 En cuanto a los tipos de datos que estan presentes en cada columna no encontramos con:<br>
 En `netflix_original`:<br>
 Title    -->      object<br>
@@ -101,7 +104,7 @@ Premiere   -->    object<br>
 Runtime    -->     int64<br>
 IMDB Score -->   float64<br>
 Language  -->     object<br>
-
+<br>
 En `netflix_titles`:<br>
 type      -->      object<br>
 title      -->     object<br>
