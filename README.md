@@ -27,8 +27,6 @@ Este proyecto requiere **Python 3.8+** y las siguientes bibliotecas:
 
 - pandas
 - numpy
-- matplotlib
-- seaborn
 
 Para instalar los requisitos, puedes usar el siguiente comando:
 
