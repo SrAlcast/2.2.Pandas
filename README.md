@@ -59,8 +59,6 @@ Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor abr
 
 ## ✒️ Autores
 
-- **[Alex]** - [GitHub Profile](https://github.com/SrAlcast)
+[Alex](https://github.com/SrAlcast)
 
 ---
-
-Este README describe de manera clara los conceptos abordados y la estructura del proyecto.
