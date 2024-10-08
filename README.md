@@ -48,18 +48,37 @@ pip install -r requirements.txt
 
 ### 1. Carga de Datos
 
-El primer paso consiste en cargar el conjunto de datos. Dependiendo del formato de los datos (CSV, SQL, etc.), se debe utilizar una herramienta o biblioteca adecuada para importarlos. Por ejemplo, si los datos están en formato CSV, se puede utilizar `pandas` para cargarlos en un dataframe.
+El primer paso consiste en cargar el conjunto de datos. Dependiendo del formato de los datos (CSV, SQL, etc.), se debe utilizar una herramienta o biblioteca adecuada para importarlos. En este caso, los datos están en formato CSV, con lo que se puede utilizar `pandas` para cargarlos en un dataframe y poder trabajar con ellos con esta libreria.
 
 ### 2. Revisión Inicial
 
-Una vez cargados los datos, es fundamental realizar una inspección básica del conjunto de datos.<br>
-- Visualizar las primeras filas para tener una idea del contenido.
-- Comprobar las dimensiones del dataset (número de filas y columnas).
-- Revisar los tipos de datos presentes en cada columna.
-- Detectar la presencia de valores faltantes o duplicados.
-En esta primera inspeccion podemos observar los tamaños de los dos archivos csv:<br>
-Por un lado, el tamaño del csv netflix_original es de
-Por otro lado, el tamaño del csv netflix_titles
+En esta primera inspeccion tras cargar los datos podemos observar los tamaños ambos:<br>
+Por un lado, el tamaño del Dataframe #netflix_original# es de 513 filas y 6 columnas.<br>
+Por otro lado, el tamaño del Dataframe #netflix_titles# es de 8807 filas y 11 columnas.<br>
+En cuanto a los tipos de datos que estan presentes en cada columna no encontramos con:<br>
+En #netflix_original#:<br>
+Title    -->      object<br>
+Genre     -->     object<br>
+Premiere   -->    object<br>
+Runtime    -->     int64<br>
+IMDB Score -->   float64<br>
+Language  -->     object<br>
+
+En #netflix_titles#:<br>
+type      -->      object<br>
+title      -->     object<br>
+director  -->      object<br>
+cast        -->    object<br>
+country        --> object<br>
+date_added     --> object<br>
+release_year -->    int64<br>
+rating       -->   object<br>
+duration   -->     object<br>
+listed_in     -->  object<br>
+description   -->  object<br>
+
+En esta primera revisión inicial se ha apreciado que ambos Dataframes comparten titulos en comun y que puede ser interesante realizar una union de ambos archivos para trabajar sobre un unico Dataframe.
+
 ### 3. Análisis de Valores Faltantes
 
 En cuanto a los valores nulos observamos que:<br>
