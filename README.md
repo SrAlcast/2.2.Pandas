@@ -17,7 +17,7 @@ El propósito es extraer información valiosa sobre la duración, calificaciones
 ├── data/                                         # Contiene los conjuntos de datos originales
 │   ├── netflix_originals.csv
 │   └── netflix_titles.csv
-├── laboratorio-modulo2-leccion02-eda-union/      # Resultados finales, gráficos y datasets procesados
+├── laboratorio-modulo2-leccion02-eda-union/      # Resultados finales, desarrollo de proceso
 └── README.md                                     # Descripción del proyecto
 ```
 
