@@ -1,5 +1,7 @@
 # 🎬 Laboratorio Pandas: EDA y Unión de Datos
 
+![Netflix Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png)
+
 ## 📖 Descripción
 
 Este laboratorio tiene como objetivo realizar un análisis exploratorio de datos (EDA) sobre dos conjuntos de datos relacionados con las producciones de Netflix. Se utilizarán técnicas de manipulación de datos con **Pandas** para responder a preguntas clave y realizar la unión de datos entre los siguientes conjuntos de datos:
