@@ -143,9 +143,3 @@ Al final del análisis exploratorio, se pueden destacar los principales hallazgo
 ## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor abre un pull request o una issue.
-
-## ✒️ Autores
-
-[Alex](https://github.com/SrAlcast)
-
----
